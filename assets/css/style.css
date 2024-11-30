@@ -1,0 +1,60 @@
+body {
+    background-color: #222933; /* Primary Background */
+    color: #00ADB5; /* Text Color */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    background-color: #393E46; /* Secondary Background */
+}
+
+nav {
+    position: -webkit-sticky;
+    display: grid;
+    background-color: #222933b7;
+    transition: background-color 0.3s ease;
+}
+
+nav ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    padding: 10px;
+    color: #F1C40F;  /* Sunflower Yellow text */
+    font-size: 1.25rem;
+    transition: background-color 0.3s ease;
+}
+
+nav li:hover{
+    background-color: #1ABC9C;  /* Emerald Green on hover */
+    cursor: pointer;
+}
+
+nav li.active{
+    color: #FF6347;
+}
+
+button {
+    background-color: #FFD369; /* Primary Accent */
+    color: #222831;
+}
+
+a {
+    color: #1ABC9C; /* Secondary Accent */
+}
+
+#Intro{
+    display: grid;              
+    place-items: center;        
+    height: 5vh;              
+    text-align: center; 
+    font-size: 1.55rem;
+    padding-left: 10%;
+    padding-right: 10%;
+}
